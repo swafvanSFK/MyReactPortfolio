@@ -1,0 +1,117 @@
+.about-section {
+    color: var(--font-color);
+  }
+  
+  .about-section .section-title {
+    margin-top: var(--title-margin-top);
+    margin-bottom: 100px;
+  }
+  
+  .about-section .section-text {
+    color: var(--font-color);
+    margin: 2px 0 100px 0;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  .about-txt-area {
+    border-left: 1px solid var(--primary-color);
+    position: relative;
+  }
+  
+  .about-section .about-name {
+    font-size: 80px;
+    font-weight: 700;
+    position: relative;
+  }
+  
+  .about-section .about-name::before {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: block;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -10px;
+    left: -22px;
+  }
+  
+  .about-section .about-name::after {
+    content: "DEVELOPER";
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    bottom: -10px;
+    right: 240px;
+    letter-spacing: 10px;
+  }
+  
+  .about-section ul {
+    margin-top: 30px;
+  }
+  
+  .about-section ul li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 8px;
+    font-weight: lighter;
+  }
+  
+  .about-section p {
+    max-width: 600px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Responsive Styles for Small Screen */
+  
+  @media screen and (max-width: 992px) {
+    .about-section {
+      text-align: center;
+    }
+    .section-text {
+      margin-top: 300px;
+      margin-bottom: 50px;
+      font-size: 30px;
+    }
+    .about-txt-area {
+      border-left: none;
+    }
+    .about-section .about-txt-area {
+      width: 100%;
+    }
+    .about-section .about-name {
+      font-size: 40px;
+      font-weight: 400;
+    }
+    .about-section .about-name::before {
+      display: none;
+    }
+    .about-section .about-name::after {
+      display: none;
+    }
+    .about-section ul {
+      padding: 0;
+    }
+    .about-section ul li {
+      margin: 0;
+      font-size: 15px;
+    }
+    .about-section p {
+      max-width: 100%;
+      margin: 0 0 30px 0;
+    }
+  }
+  
+  @media screen and (max-height:550px) {
+    .about-section .section-title{
+      margin-top: 50px;
+    }
+  }
+  

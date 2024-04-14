@@ -1,0 +1,135 @@
+.social-icons p,span{
+    color: var(--font-color);
+  }
+  
+  input:focus,textarea:focus{
+    background-color: #052334 !important;
+    color: white;
+  }
+  
+  .contact .social-icons i{
+    color: var(--primary-color);
+    font-size: 35px;
+    background-color: #063148;
+    padding: 12px;
+    border-radius: 50%;
+  }
+  
+  form p{
+    display: none;
+  }
+
+  .input-box{
+    margin: 8px 0;
+  }
+
+  textarea{
+    margin-top: 20px !important;
+  }
+  
+  .send-mail .input-box{
+    background-color: #063148;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .submit-btn button{
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--font-color);
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+  }
+  
+  .submit-btn button:hover{
+    background: var(--primary-color);
+    border:1px solid transparent;
+  }
+
+  .input-area{
+    position: relative;
+  }
+
+  .error-msg{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: -13px;
+    left: 0px;
+  }
+
+  .error-for-email{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 15px;
+    position: absolute;
+    right: 227px;
+    top: -13px;
+  }
+
+  .error-for-subject{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: -13px;
+    left: 0px;
+  }
+  
+  .error-for-message{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 15px;
+    position: absolute;
+  }
+
+  @media screen and (max-width:1400px) {
+    .error-for-email{
+      right: 180px;
+      top: -13px;
+    }
+  }
+  @media screen and (max-width:1200px) {
+    .error-for-email{
+      right: 120px;
+      top: -13px;
+    }
+  }
+  @media screen and (max-width:992px) {
+    .error-for-email{
+      right: 154px;
+      top: -13px;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .error-for-email{
+      right: 70px;
+      top: -13px;
+    }
+  }
+  @media screen and (max-width:574px) {
+    .error-for-email{
+      right: 85px;
+      top: -13px;
+    }
+  }
+  @media screen and (max-width:482px) {
+    .error-for-email{
+      right: 39px;
+      top: -13px;
+    }
+  }

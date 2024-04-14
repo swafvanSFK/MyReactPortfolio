@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: var(--font-color) !important;
+    background-color: #063148 !important;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    box-shadow: 1px 1px 20px transparent;
+  }
+  
+  .card:hover {
+    box-shadow: 1px 1px 20px #00000079;
+  }
+  
+  .card .vector {
+    width: 160px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card .service-img {
+    width: 50px;
+    position: absolute;
+    top: 18%;
+    transition: 0.5s ease ;
+  }
+  
+  .card:hover .service-img {
+    transform: rotate(360deg);
+  }
+  
+  .service .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media screen and (max-width:414px) {
+    .card {
+      width: auto !important;
+      height: auto !important;
+  }
+  }

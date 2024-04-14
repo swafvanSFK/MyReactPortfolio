@@ -1,0 +1,60 @@
+.resume-section {
+    text-transform: lowercase;
+    color: var(--font-color);
+  }
+  
+  .resume-section h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  
+  .resume-desc {
+    margin-left: 30px;
+    padding: 0 0 0px 20px;
+    border-left: 1px solid var(--primary-color);
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+  }
+  
+  .resume-desc::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: block;
+    margin-bottom: 20px;
+    position: absolute;
+    left: -5px;
+  }
+  
+  .resume-desc h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  
+  .resume-desc .working-year {
+    display: inline;
+    background: var(--primary-color);
+    padding: 2px 5px;
+    margin-bottom: 500px;
+    font-style: italic;
+  }
+  
+  .worked-place {
+    font-style: italic;
+  }
+  
+  .progress-items {
+    height: 10px;
+  }
+  
+  /* Responsive styles for small screen */
+  @media screen and (max-width: 992px) {
+    .resume-section h2 {
+      font-size: 26px;
+    }
+  }

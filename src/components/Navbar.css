@@ -1,0 +1,67 @@
+
+.logo-img{
+    width: 75px;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+.nav-links{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0px 15px;
+    color: var(--font-color);
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: ease-in-out 0.8s;
+}
+
+@media screen and (max-width:1200px) {
+    .nav-links{
+        font-size: 17px;
+    }
+}
+
+/* Navlinks Hover Effect */
+        
+.nav-links:hover{
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    transition: 0.3s;
+
+}
+  
+
+.contact-btn{
+    text-transform: uppercase;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--font-color);
+    padding: 10px 25px;
+    transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 992px) {
+    .contact-btn {
+      display: none;
+    }
+  }
+
+.navbar .contact-btn:hover {
+    background: var(--primary-color);
+    border: transparent;
+    color: var(--font-color);
+  }
+
+  .navbar-toggler{
+    border-color: var(--primary-color);
+  }
+
+.navbar-toggler-icon{
+    background: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 1.0%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+    stroke:"rgba(255, 255, 255, 1.0)";
+    font-size: 25px;
+}
+

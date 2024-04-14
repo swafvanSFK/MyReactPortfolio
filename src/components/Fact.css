@@ -1,0 +1,42 @@
+.fact-section {
+    color: var(--font-color);
+    transition: ease-in-out .5s;
+    text-align: center;
+  }
+
+  .fact-icons{
+    margin-top: 80px !important;
+  }
+  
+  .fact-icons img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+  }
+  
+  .fact-section img:hover{
+    transform: rotateY(180deg);
+  }
+  
+  .fact-icons h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .fact-icons p {
+    text-transform: uppercase;
+    transition: linear 2s ease;
+  }
+
+  @media screen and (max-width:767px) {
+    .fact-icons h2{
+      font-size: 30px;
+    }
+    .fact-icons img {
+      width: 80px;
+      height: 80px;
+      
+    }
+  }
+

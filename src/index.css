@@ -1,0 +1,80 @@
+/* Variables */
+:root {
+  --primary-color: #f0b000;
+  --font-color: #dfe0e5;
+  --bg-color: #003754;
+  --title-margin-top: 100px;
+}
+
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins" sans-serif;
+}
+
+/* Global CSS */
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 100px;
+  color: var(--font-color);
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section-desc {
+  color: var(--font-color);
+  font-size: 15px;
+  text-align: center;
+  margin: 20px 0 80px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+html{
+  background: var(--bg-color);
+}
+
+/*Set Background For Body */
+
+body {
+  height: 100vh;
+  background: url(./Assets/images/bg-image.png);
+  background-color: var(--background-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--font-family);
+  color: var(--font-color);
+}
+
+@media screen and (max-height:526px) {
+  .App{
+    background:var(--bg-color);
+  }
+}
+
+
+/* ScrollBar Styles */
+
+body::-webkit-scrollbar { 
+  background-color: transparent;
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+
